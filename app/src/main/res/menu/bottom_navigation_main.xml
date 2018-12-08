@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/home_button"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/historical_data"
+        android:enabled="true"
+        android:icon="@drawable/historical_data_button"
+        android:title="Charts"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/doctor"
+        android:enabled="true"
+        android:icon="@drawable/chat_button"
+        android:title="Doctor"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/medicalRecords"
+        android:enabled="true"
+        android:icon="@drawable/medical_records_button"
+        android:title="Records"
+        app:showAsAction="always" />
+
+</menu>
